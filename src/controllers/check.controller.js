@@ -9,7 +9,7 @@ module.exports = {
                 let error = errors.errors;
                 return res.status(200).send({status: 500, error});
             }
-            let check = 30;
+            let check = 10;
             if (check != 30){
                 return res.status(200).send({status: 200, data: "success"});
             } else {
