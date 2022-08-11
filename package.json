@@ -1,0 +1,35 @@
+{
+  "name": "backend-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://quan191: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@github.com/quan191/backend-cicd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quan191/backend-cicd/issues"
+  },
+  "homepage": "https://github.com/quan191/backend-cicd#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-validator": "^6.14.2",
+    "helmet": "^5.1.1",
+    "http-status": "^1.5.2",
+    "mongoose": "^6.5.1",
+    "mongose": "^0.0.2-security",
+    "morgan": "^1.10.0",
+    "winston": "^3.8.1",
+    "xss-clean": "^0.1.1"
+  }
+}
