@@ -24,9 +24,13 @@ jobs:
       run: |
         yarn install
 
+    - name: yarn stop
+      run: |
+        yarn stop
+
     - name: yarn build
       run: |
-        pm2 start src/index.js
+        yarn build
 
     - name: Add remote origin
       run: |
