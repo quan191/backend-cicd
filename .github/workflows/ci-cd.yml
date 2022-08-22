@@ -50,6 +50,8 @@ jobs:
         script: |
           cd backend-cicd
           git pull origin main
+          node --version
+          yarn --version
           yarn install
           yarn stop 
           yarn build
