@@ -49,8 +49,7 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         script: |
           cd backend-cicd
-          git fetch origin main
-          git reset --hard FETCH_HEAD 
+          git pull origin main
           yarn install
           yarn stop 
           yarn build
