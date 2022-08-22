@@ -50,6 +50,8 @@ jobs:
         script: |
           cd backend-cicd
           git pull origin main
+          export NVM_DIR=~/.nvm
+          source ~/.nvm/nvm.sh
           nvm ls
           node --version
           yarn --version
