@@ -50,6 +50,7 @@ jobs:
         script: |
           cd backend-cicd
           git pull origin main
+          nvm ls
           node --version
           yarn --version
           yarn install
